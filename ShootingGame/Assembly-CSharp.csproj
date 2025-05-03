@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerProjectile.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\EnemyAi.cs" />
     <Compile Include="Assets\PlayerShooting.cs" />
   </ItemGroup>
   <ItemGroup>
