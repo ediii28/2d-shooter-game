@@ -7,7 +7,7 @@ public class PlayerProjectile : MonoBehaviour
     public void SetDirection (Vector3 mousePosition)
     {
         Vector3 direction = (mousePosition - transform.position).normalized;
-        GetComponent<Rigidbody2D>().velocity= direction * Speed;
+        GetComponent<Rigidbody2D>().linearVelocity= direction * Speed;
     }
 
     private void Update()

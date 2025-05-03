@@ -373,6 +373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375087357}
   - component: {fileID: 1375087356}
+  - component: {fileID: 1375087362}
   - component: {fileID: 1375087358}
   - component: {fileID: 1375087359}
   - component: {fileID: 1375087360}
@@ -555,6 +556,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ProjectilePreFab: {fileID: 7011618834530783557, guid: ef439b47116e25e4c8e395cc4442d9d1, type: 3}
+  ShootingPoint: {fileID: 1457195188}
+--- !u!114 &1375087362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375087355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f742b0c4ab5d0f9489c1c23fd2d53876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 7011618834530783557, guid: ef439b47116e25e4c8e395cc4442d9d1, type: 3}
   ShootingPoint: {fileID: 1457195188}
 --- !u!1 &1457195187
 GameObject:
