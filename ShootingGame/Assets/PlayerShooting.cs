@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
+=======
+>>>>>>> 9cbc6f8b147b62579adc7fad3155dc91c4bda553
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
